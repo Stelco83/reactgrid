@@ -1,6 +1,6 @@
 {
   "name": "@silevis/reactgrid",
-  "description": "Add spreadsheet-like behavior to your React app.",
+  "description": "Add spreadsheet-like behavior to your React app. Use for accenture purpouses",
   "version": "4.1.4",
   "homepage": "https://reactgrid.com",
   "license": "MIT",
