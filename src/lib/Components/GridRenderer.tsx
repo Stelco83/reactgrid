@@ -14,7 +14,7 @@ export const GridRenderer: React.FC<GridRendererProps> = ({ eventHandlers, child
     return (
         <ErrorBoundary>
             <div
-                className="reactgrid1"
+                className="reactgrid"
                 style={{
                     position: 'relative',
                     paddingRight: isBrowserFirefox() ? "10px" : "",
@@ -23,7 +23,7 @@ export const GridRenderer: React.FC<GridRendererProps> = ({ eventHandlers, child
                 ref={eventHandlers.reactgridRefHandler}
             >
                 <div
-                    className="reactgrid-content1"
+                    className="reactgrid-content"
                     onKeyDown={eventHandlers.keyDownHandler}
                     onKeyUp={eventHandlers.keyUpHandler}
                     onCompositionEnd={eventHandlers.compositionEndHandler as any}
