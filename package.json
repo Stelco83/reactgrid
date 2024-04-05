@@ -7,7 +7,7 @@
   "author": "Silevis Software",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stelco83/reactgrid.git"
+    "url": "https://github.com/silevis/reactgrid"
   },
   "keywords": [
     "react",
@@ -54,8 +54,8 @@
     "typescript": "^4.2.3"
   },
   "peerDependencies": {
-    "react": "^16.13.1 || ^17.0.0 || ^18.2.0",
-    "react-dom": "^16.13.1 || ^17.0.0 || ^18.2.0"
+    "react": "^16.13.1 || ^17.0.0|| ^18.0.0 || ^18.2.0",
+    "react-dom": "^16.13.1 || ^17.0.0 || ^18.0.0 || ^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
